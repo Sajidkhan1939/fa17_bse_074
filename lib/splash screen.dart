@@ -29,14 +29,14 @@ class _MyHomePageState extends State<MyHomePage> {
     Timer(
         Duration(seconds: 10),
             () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => QuizApp())));
+            context, MaterialPageRoute(builder: (context) => SplashScreen())));
   }
 
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: Colors.grey.shade900,
-        child: Image.asset('images/icon.png'),
-        );
+      color: Colors.grey.shade900,
+      child: Image.asset('images/sajid4.png'),
+    );
   }
 }
