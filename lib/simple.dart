@@ -1,4 +1,4 @@
-[3:32 AM, 12/5/2020] Zyne B#09: import 'dart:math';
+ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
@@ -27,7 +27,7 @@ var imageArray = ['dice1.png', 'dice2.png', 'dice3.png', 'dice4.png', 'dice5.png
 //var random = new Random();
 int randomIntForDiceOne = Random().nextInt(6);
 int randomIntForDiceTwo = Ra…
-[3:48 AM, 12/5/2020] Zyne B#09: import 'dart:math';
+ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
@@ -57,8 +57,7 @@ int randomIntForDiceTwo = Random().nextInt(6);
 Widget build(BuildContext context) {
 
 return Scaffold(
-…
-[3:48 AM, 12/5/2020] Zyne B#09: import 'dart:math';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 
