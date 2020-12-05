@@ -6,7 +6,7 @@ void simpleDice() {
 }
 
 void hardDice() {
-  setState(() {
+  setState(() {e
     Navigator.push(context, new MaterialPageRoute(builder: (context) => new HardDice()));
   });
 }
