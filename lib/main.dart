@@ -66,14 +66,8 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-
-
-
-
-
-
-
-             accountName: Text('M Sajid'),
+            UserAccountsDrawerHeader(
+            accountName: Text('M Sajid'),
                 accountEmail: Text('s4sajidkhan112@gmail.com'),
                 currentAccountPicture: CircleAvatar(
                     backgroundImage: AssetImage('images/sajid4.jpg')
